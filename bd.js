@@ -1,5 +1,5 @@
 // 创建一个 Env 类的实例，传入脚本名称
-const environmentInstance = new Env("Blued增强功能-Eric");
+const environmentInstance = new Env("Blued增强");
 
 // 定义需要跳过的URL
 const skipUrls = [
