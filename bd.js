@@ -284,7 +284,7 @@ function handleFetchedData(fetchedData, originalData) {
       if (userData.last_operate !== undefined && userData.distance !== undefined) {
         const originalUserData = originalData.data[0];
         Object.assign(originalUserData, {
-          privacy_photos_has_locked: 1 // 隐私照片锁定状态
+          privacy_photos_has_locked: 0 // 隐私照片锁定状态
         });
       }
     }
