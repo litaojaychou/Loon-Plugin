@@ -1,12 +1,6 @@
 // 创建一个 Env 类的实例，传入脚本名称
 const environmentInstance = new Env("Blued增强");
 
-// 定义需要跳过的URL
-const skipUrls = [
-  "https://social.blued.cn/users/58081339/flash", // 跳过特定用户的闪照页面
-  // 可以在这里添加更多的URL
-];
-
 // 确保兼容性
 function getHttpClient() {
   return typeof $httpClient !== "undefined" ? $httpClient :
