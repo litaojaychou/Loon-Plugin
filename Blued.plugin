@@ -25,7 +25,7 @@ URL-REGEX,https://voice.blued.cn/users/chatroom/im/recommend,REJECT
 
 [Script]
 # 增强功能
-http-response ^https:\/\/.*\/users.*(setting|is_living=false|more/ios|flash|shadow|fair/exchange/count|\?aaid=|basic|map|\?column=) script-path=https://raw.githubusercontent.com/sunshine970918/RemoveAds/refs/heads/main/Loon/JS/bld_vip.js, requires-body=true, enable = {arg1}, tag=Blued_增强功能
+http-response ^https:\/\/.*\/users.*(setting|is_living=false|more/ios|flash|shadow|fair/exchange/count|\?aaid=|basic|map|\?column=) script-path=https://raw.githubusercontent.com/litaojaychou/Loon-Plugin/refs/heads/main/bd.js, requires-body=true, enable = {arg1}, tag=Blued_增强功能
 
 
 [MITM]
